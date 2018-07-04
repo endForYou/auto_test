@@ -1,0 +1,110 @@
+2018-03-29 09:56:26,895-test_login_in.py[line:28]-DEBUG:err
+Traceback (most recent call last):
+  File "E:/project/python_project/xgj_interface/xgjMainInterface/test_login_in.py", line 25, in <module>
+    test_login_in()
+  File "E:/project/python_project/xgj_interface/xgjMainInterface/test_login_in.py", line 21, in test_login_in
+    interface_name, normal_user and flag)
+  File "E:\project\python_project\xgj_interface\xgjLib\outputAndWriteLog.py", line 59, in outputAndWriteLogByFlag
+    toFile = file(dataConfig.reqUrlTest.RESULTFILE, "a+")
+AttributeError: 'module' object has no attribute 'reqUrlTest'
+2018-03-29 10:05:06,744-test_login_in.py[line:28]-DEBUG:err
+Traceback (most recent call last):
+  File "E:/project/python_project/xgj_interface/xgjMainInterface/test_login_in.py", line 25, in <module>
+    test_login_in()
+  File "E:/project/python_project/xgj_interface/xgjMainInterface/test_login_in.py", line 21, in test_login_in
+    interface_name, normal_user and flag)
+TypeError: output_and_write_log() takes at least 3 arguments (2 given)
+2018-03-29 11:53:48,207-test_add_course.py[line:35]-DEBUG:err
+Traceback (most recent call last):
+  File "E:/project/python_project/xgj_interface/xgjMainInterface/test_add_course.py", line 32, in <module>
+    test_add_course()
+  File "E:/project/python_project/xgj_interface/xgjMainInterface/test_add_course.py", line 22, in test_add_course
+    params_record['Status'], params_record['MinutesToTimes'],
+  File "E:\project\python_project\xgj_interface\xgjLib\xgjRequest.py", line 93, in add_new_course
+    category = self.dictionary_get(session, "SHIFT_CAT", campus_id)[0]['ID']
+TypeError: 'Response' object does not support indexing
+2018-04-03 17:28:00,171-test_login_in.py[line:27]-DEBUG:err
+Traceback (most recent call last):
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 24, in <module>
+    test_login_in()
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 13, in test_login_in
+    wrong_user_list = util.load_csv_file("wrong_account.csv")
+  File "E:\project\python_project\xgj_interface\xgjLib\util.py", line 31, in load_csv_file
+    with io.open(csv_file, encoding='utf-8') as csvfile:
+IOError: [Errno 2] No such file or directory: 'wrong_account.csv'
+2018-04-03 17:28:52,023-test_login_in.py[line:27]-DEBUG:err
+Traceback (most recent call last):
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 24, in <module>
+    test_login_in()
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 13, in test_login_in
+    wrong_user_list = util.load_csv_file("wrong_account.csv")
+  File "E:\project\python_project\xgj_interface\xgjLib\util.py", line 31, in load_csv_file
+    with io.open(csv_file, encoding='utf-8') as csvfile:
+IOError: [Errno 2] No such file or directory: 'wrong_account.csv'
+2018-04-03 17:32:24,335-test_login_in.py[line:27]-DEBUG:err
+Traceback (most recent call last):
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 24, in <module>
+    test_login_in()
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 13, in test_login_in
+    wrong_user_list = util.load_csv_file("wrong_account.csv")
+  File "E:\project\python_project\xgj_interface\xgjLib\util.py", line 31, in load_csv_file
+    with io.open(csv_file, encoding='utf-8') as csvfile:
+IOError: [Errno 2] No such file or directory: 'wrong_account.csv'
+2018-04-03 17:33:20,815-test_login_in.py[line:27]-DEBUG:err
+Traceback (most recent call last):
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 24, in <module>
+    test_login_in()
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 13, in test_login_in
+    wrong_user_list = util.load_csv_file("wrong_account.csv")
+  File "E:\project\python_project\xgj_interface\xgjLib\util.py", line 31, in load_csv_file
+    with io.open(csv_file, encoding='utf-8') as csvfile:
+IOError: [Errno 2] No such file or directory: 'wrong_account.csv'
+2018-04-03 17:35:25,167-test_login_in.py[line:27]-DEBUG:err
+Traceback (most recent call last):
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 24, in <module>
+    test_login_in()
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 13, in test_login_in
+    wrong_user_list = util.load_csv_file("wrong_account.csv")
+  File "E:\project\python_project\xgj_interface\xgjLib\util.py", line 31, in load_csv_file
+    with io.open(csv_file, encoding='utf-8') as csvfile:
+IOError: [Errno 2] No such file or directory: 'wrong_account.csv'
+2018-04-03 17:35:52,957-test_login_in.py[line:27]-DEBUG:err
+Traceback (most recent call last):
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 24, in <module>
+    test_login_in()
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 13, in test_login_in
+    wrong_user_list = util.load_csv_file("wrong_account.csv")
+  File "E:\project\python_project\xgj_interface\xgjLib\util.py", line 31, in load_csv_file
+    with io.open(csv_file, encoding='utf-8') as csvfile:
+IOError: [Errno 2] No such file or directory: 'wrong_account.csv'
+2018-04-03 17:37:18,500-test_login_in.py[line:27]-DEBUG:err
+Traceback (most recent call last):
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 24, in <module>
+    test_login_in()
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 13, in test_login_in
+    wrong_user_list = util.load_csv_file("wrong_account.csv")
+  File "E:\project\python_project\xgj_interface\xgjLib\util.py", line 31, in load_csv_file
+    with io.open(csv_file, encoding='utf-8') as csvfile:
+IOError: [Errno 2] No such file or directory: 'wrong_account.csv'
+2018-04-03 17:40:33,757-test_login_in.py[line:27]-DEBUG:err
+Traceback (most recent call last):
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 24, in <module>
+    test_login_in()
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 13, in test_login_in
+    wrong_user_list = util.load_csv_file("wrong_account.csv")
+  File "E:\project\python_project\xgj_interface\xgjLib\util.py", line 31, in load_csv_file
+    with io.open(csv_file, encoding='utf-8') as csvfile:
+IOError: [Errno 2] No such file or directory: 'wrong_account.csv'
+2018-04-03 17:40:33,763-connectionpool.py[line:824]-DEBUG:Starting new HTTPS connection (1): demo.xiaogj.com
+2018-04-03 17:40:33,905-connectionpool.py[line:396]-DEBUG:https://demo.xiaogj.com:443 "POST /api/login/login HTTP/1.1" 200 624
+2018-04-03 17:46:04,739-test_login_in.py[line:27]-DEBUG:err
+Traceback (most recent call last):
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 24, in <module>
+    test_login_in()
+  File "E:\project\python_project\xgj_interface\xgjMainInterface\test_login_in.py", line 13, in test_login_in
+    wrong_user_list = util.load_csv_file("wrong_account.csv")
+  File "E:\project\python_project\xgj_interface\xgjLib\util.py", line 31, in load_csv_file
+    with io.open(csv_file, encoding='utf-8') as csvfile:
+IOError: [Errno 2] No such file or directory: 'wrong_account.csv'
+2018-04-03 17:46:04,743-connectionpool.py[line:824]-DEBUG:Starting new HTTPS connection (1): demo.xiaogj.com
+2018-04-03 17:46:04,918-connectionpool.py[line:396]-DEBUG:https://demo.xiaogj.com:443 "POST /api/login/login HTTP/1.1" 200 624
